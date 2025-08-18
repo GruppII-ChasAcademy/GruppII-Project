@@ -37,7 +37,7 @@ Tre olika frontends:
 
 ---
 
-## Styrenhet & Sensorer
+## IOT - EMBEDDED
 - **Styrenhet (fordon)**  
   - GPS-sensor  
   - 4G/5G-uppkoppling  
@@ -56,17 +56,10 @@ Tre olika frontends:
 ## Infrastruktur
 - **Backend**: Azure SQL, datalager, data warehouse för analys  
 - **Frontend**: Azure App Service (eller motsvarande), loggning av användardata  
-- **CI/CD**: GitHub Actions & Projects, teststruktur för IoT, backend och frontend  
+- **CI/CD**: GitHub Actions & Projects, teststruktur för IoT, backend och frontend
+- **IOT - EMBEDDED**: Fordonsenhet med GPS, 4G/5G och styrning av klimat, kopplad till batteridrivna sensorpaket (temp/fukt) i varje försändelse  
 - **Kodstruktur**: Flera repon i en organisation med Git Flow (ev. övergång till GitHub Flow vid deploy)  
 
----
-
-## Att göra
-- Inköp och distribution av sensor- och basenheter  
-- Uppbyggnad av CI/CD-flöde  
-- Implementering av testkörningsstruktur  
-
----
 
 ## Team
 Projektet drivs av **Grupp II – Chas Academy**.  
